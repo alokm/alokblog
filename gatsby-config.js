@@ -6,7 +6,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Alok Mohindra - Personal Website`,
+    siteTitle: `Alok Mohindra`,
+    siteTitleAlt: `Personal werbsite`,
+    siteHeadline: `Alok Mohindra - My home on the web`,
+    siteUrl: `https://alok.mohindra.com`,
+    siteDescription: `A website and blog about innovative technology, amazing products and how they intersect.`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `Alok Mohindra`, 
   },
   plugins: [
     {
@@ -40,7 +47,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
+        short_name: `alok-blog`,
         description: `A blog about the intersection between technology and opportunity that results in amazing products`,
         start_url: `/`,
         background_color: `#fff`,
